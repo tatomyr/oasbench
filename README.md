@@ -1,6 +1,7 @@
 # OpenAPI Linter Race
 
 [![Last race](https://img.shields.io/github/last-commit/tatomyr/oasbench/main?path=results&label=last%20race)](https://github.com/tatomyr/oasbench/actions/workflows/benchmark.yml)
+[![Race status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Ftatomyr%2Foasbench%2Factions%2Fworkflows%2Fbenchmark.yml%2Fruns%3Fper_page%3D1&query=%24.workflow_runs%5B0%5D.status&label=race)](https://github.com/tatomyr/oasbench/actions/workflows/benchmark.yml)
 
 Speed benchmark of OpenAPI linters on public API descriptions.
 Every linter runs at its latest release (Redocly CLI also at its latest snapshot) with its default ruleset; Spectral has none, so it gets [`.spectral.yaml`](.spectral.yaml), which extends `spectral:oas`.
