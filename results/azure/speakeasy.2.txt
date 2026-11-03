@@ -1,6 +1,6 @@
 Linting OpenAPI document...
                            
-Lint report written to: /home/runner/.speakeasy/temp/lint-report-736ed646bf2fd61068a5ad5153408110-2934912081.html
+Lint report written to: /home/runner/.speakeasy/temp/lint-report-516230be844169d6768f4318bc0e0300-4275892586.html
 INFO    validation hint: [line 1:1] generator-retries - retries should be configured - consider adding x-speakeasy-retries[0m extension globally or per-operation
 INFO    validation hint: [line 1:1] generator-validate-servers - no servers found in document, either add servers to the document or set a baseServerUrl[0m in the gen.yaml[0m config file
 INFO    validation hint: [line 51:5] generator-validate-servers - no servers found for operation get[0m /providers/Microsoft.Compute/operations[0m either locally, on the path or globally
@@ -229,56 +229,56 @@ INFO    validation hint: [line 27646:5] generator-validate-servers - no servers 
 INFO    validation hint: [line 28354:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}[0m either locally, on the path or globally
 INFO    validation hint: [line 28892:5] generator-validate-servers - no servers found for operation put[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}[0m either locally, on the path or globally
 INFO    validation hint: [line 28923:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 36086:5] generator-validate-servers - no servers found for operation patch[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}[0m either locally, on the path or globally
-INFO    validation hint: [line 36117:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 36391:5] generator-validate-servers - no servers found for operation delete[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}[0m either locally, on the path or globally
-INFO    validation hint: [line 36449:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/assessPatches[0m either locally, on the path or globally
-INFO    validation hint: [line 36532:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/attachDetachDataDisks[0m either locally, on the path or globally
-INFO    validation hint: [line 36551:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 36697:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/capture[0m either locally, on the path or globally
-INFO    validation hint: [line 36716:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 36784:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/convertToManagedDisks[0m either locally, on the path or globally
-INFO    validation hint: [line 36846:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/deallocate[0m either locally, on the path or globally
-INFO    validation hint: [line 36919:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands[0m either locally, on the path or globally
-INFO    validation hint: [line 36982:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}[0m either locally, on the path or globally
-INFO    validation hint: [line 37047:5] generator-validate-servers - no servers found for operation put[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}[0m either locally, on the path or globally
-INFO    validation hint: [line 37071:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 37162:5] generator-validate-servers - no servers found for operation patch[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}[0m either locally, on the path or globally
-INFO    validation hint: [line 37186:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 37250:5] generator-validate-servers - no servers found for operation delete[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}[0m either locally, on the path or globally
-INFO    validation hint: [line 37308:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions[0m either locally, on the path or globally
-INFO    validation hint: [line 37395:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}[0m either locally, on the path or globally
-INFO    validation hint: [line 37489:5] generator-validate-servers - no servers found for operation put[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}[0m either locally, on the path or globally
-INFO    validation hint: [line 37513:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 37674:5] generator-validate-servers - no servers found for operation patch[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}[0m either locally, on the path or globally
-INFO    validation hint: [line 37698:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 37763:5] generator-validate-servers - no servers found for operation delete[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}[0m either locally, on the path or globally
-INFO    validation hint: [line 37836:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/generalize[0m either locally, on the path or globally
-INFO    validation hint: [line 37869:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/installPatches[0m either locally, on the path or globally
-INFO    validation hint: [line 37888:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 37966:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/instanceView[0m either locally, on the path or globally
-INFO    validation hint: [line 38128:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/migrateToVirtualMachineScaleSet[0m either locally, on the path or globally
-INFO    validation hint: [line 38147:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 38183:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/performMaintenance[0m either locally, on the path or globally
-INFO    validation hint: [line 38245:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/powerOff[0m either locally, on the path or globally
-INFO    validation hint: [line 38313:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/reapply[0m either locally, on the path or globally
-INFO    validation hint: [line 38362:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/redeploy[0m either locally, on the path or globally
-INFO    validation hint: [line 38424:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/reimage[0m either locally, on the path or globally
-INFO    validation hint: [line 38443:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 38500:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/restart[0m either locally, on the path or globally
-INFO    validation hint: [line 38562:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/retrieveBootDiagnosticsData[0m either locally, on the path or globally
-INFO    validation hint: [line 38607:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommand[0m either locally, on the path or globally
-INFO    validation hint: [line 38626:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 38679:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands[0m either locally, on the path or globally
-INFO    validation hint: [line 38745:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}[0m either locally, on the path or globally
-INFO    validation hint: [line 38813:5] generator-validate-servers - no servers found for operation put[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}[0m either locally, on the path or globally
-INFO    validation hint: [line 38837:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 38941:5] generator-validate-servers - no servers found for operation patch[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}[0m either locally, on the path or globally
-INFO    validation hint: [line 38965:13] generator-missing-examples - missing example for parameter. Consider adding an example
-INFO    validation hint: [line 39039:5] generator-validate-servers - no servers found for operation delete[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}[0m either locally, on the path or globally
-INFO    validation hint: [line 39097:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/simulateEviction[0m either locally, on the path or globally
-INFO    validation hint: [line 39130:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/start[0m either locally, on the path or globally
-INFO    validation hint: [line 39192:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/vmSizes[0m either locally, on the path or globally
+INFO    validation hint: [line 36222:5] generator-validate-servers - no servers found for operation patch[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}[0m either locally, on the path or globally
+INFO    validation hint: [line 36253:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 36527:5] generator-validate-servers - no servers found for operation delete[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}[0m either locally, on the path or globally
+INFO    validation hint: [line 36585:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/assessPatches[0m either locally, on the path or globally
+INFO    validation hint: [line 36668:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/attachDetachDataDisks[0m either locally, on the path or globally
+INFO    validation hint: [line 36687:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 36833:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/capture[0m either locally, on the path or globally
+INFO    validation hint: [line 36852:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 36920:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/convertToManagedDisks[0m either locally, on the path or globally
+INFO    validation hint: [line 36982:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/deallocate[0m either locally, on the path or globally
+INFO    validation hint: [line 37055:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands[0m either locally, on the path or globally
+INFO    validation hint: [line 37118:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}[0m either locally, on the path or globally
+INFO    validation hint: [line 37183:5] generator-validate-servers - no servers found for operation put[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}[0m either locally, on the path or globally
+INFO    validation hint: [line 37207:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 37298:5] generator-validate-servers - no servers found for operation patch[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}[0m either locally, on the path or globally
+INFO    validation hint: [line 37322:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 37386:5] generator-validate-servers - no servers found for operation delete[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/diagnosticRunCommands/{runCommandName}[0m either locally, on the path or globally
+INFO    validation hint: [line 37444:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions[0m either locally, on the path or globally
+INFO    validation hint: [line 37531:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}[0m either locally, on the path or globally
+INFO    validation hint: [line 37625:5] generator-validate-servers - no servers found for operation put[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}[0m either locally, on the path or globally
+INFO    validation hint: [line 37649:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 37810:5] generator-validate-servers - no servers found for operation patch[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}[0m either locally, on the path or globally
+INFO    validation hint: [line 37834:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 37899:5] generator-validate-servers - no servers found for operation delete[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/extensions/{vmExtensionName}[0m either locally, on the path or globally
+INFO    validation hint: [line 37972:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/generalize[0m either locally, on the path or globally
+INFO    validation hint: [line 38005:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/installPatches[0m either locally, on the path or globally
+INFO    validation hint: [line 38024:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 38102:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/instanceView[0m either locally, on the path or globally
+INFO    validation hint: [line 38264:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/migrateToVirtualMachineScaleSet[0m either locally, on the path or globally
+INFO    validation hint: [line 38283:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 38319:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/performMaintenance[0m either locally, on the path or globally
+INFO    validation hint: [line 38381:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/powerOff[0m either locally, on the path or globally
+INFO    validation hint: [line 38449:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/reapply[0m either locally, on the path or globally
+INFO    validation hint: [line 38498:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/redeploy[0m either locally, on the path or globally
+INFO    validation hint: [line 38560:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/reimage[0m either locally, on the path or globally
+INFO    validation hint: [line 38579:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 38636:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/restart[0m either locally, on the path or globally
+INFO    validation hint: [line 38698:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/retrieveBootDiagnosticsData[0m either locally, on the path or globally
+INFO    validation hint: [line 38743:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommand[0m either locally, on the path or globally
+INFO    validation hint: [line 38762:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 38815:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands[0m either locally, on the path or globally
+INFO    validation hint: [line 38881:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}[0m either locally, on the path or globally
+INFO    validation hint: [line 38949:5] generator-validate-servers - no servers found for operation put[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}[0m either locally, on the path or globally
+INFO    validation hint: [line 38973:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 39077:5] generator-validate-servers - no servers found for operation patch[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}[0m either locally, on the path or globally
+INFO    validation hint: [line 39101:13] generator-missing-examples - missing example for parameter. Consider adding an example
+INFO    validation hint: [line 39175:5] generator-validate-servers - no servers found for operation delete[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/runCommands/{runCommandName}[0m either locally, on the path or globally
+INFO    validation hint: [line 39233:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/simulateEviction[0m either locally, on the path or globally
+INFO    validation hint: [line 39266:5] generator-validate-servers - no servers found for operation post[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/start[0m either locally, on the path or globally
+INFO    validation hint: [line 39328:5] generator-validate-servers - no servers found for operation get[0m /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Compute/virtualMachines/{vmName}/vmSizes[0m either locally, on the path or globally
 WARN    validation warn: [line 1:1] validation-unknown-properties - unknown property consumes[0m found
 WARN    validation warn: [line 1:1] validation-unknown-properties - unknown property definitions[0m found
 WARN    validation warn: [line 1:1] validation-unknown-properties - unknown property host[0m found
@@ -1097,187 +1097,187 @@ WARN    validation warn: [line 28935:15] validation-unknown-properties - unknown
 WARN    validation warn: [line 28938:15] validation-unknown-properties - unknown property format[0m found
 WARN    validation warn: [line 28938:15] validation-unknown-properties - unknown property type[0m found
 WARN    validation warn: [line 28942:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36095:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36100:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36106:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36120:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36125:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36128:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 36128:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36132:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36400:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36405:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36417:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36420:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 36420:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36426:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36458:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36465:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36472:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36475:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 36475:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36479:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36231:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36236:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36242:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36256:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36261:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36264:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 36264:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36268:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36536:11] validation-unknown-properties - unknown property type[0m found
 WARN    validation warn: [line 36541:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36554:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36561:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36564:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 36564:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36568:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36706:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36719:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36726:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36729:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 36729:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36733:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36793:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36805:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36808:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 36808:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36812:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36855:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36860:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36865:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36877:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36880:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 36880:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36884:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36928:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36933:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 36940:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 36944:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36553:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36556:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 36556:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36562:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36594:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36601:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36608:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36611:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 36611:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36615:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36677:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36690:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36697:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36700:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 36700:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36704:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36842:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36855:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36862:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36865:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 36865:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36869:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 36929:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36941:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36944:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 36944:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 36948:11] validation-unknown-properties - unknown property schema[0m found
 WARN    validation warn: [line 36991:11] validation-unknown-properties - unknown property type[0m found
 WARN    validation warn: [line 36996:11] validation-unknown-properties - unknown property type[0m found
 WARN    validation warn: [line 37001:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37008:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37012:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37056:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37061:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37074:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37078:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37083:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37086:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 37086:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37090:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37171:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37176:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37189:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37194:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37197:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 37197:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37201:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37259:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37264:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37276:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37279:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 37279:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37285:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37317:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37322:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37329:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37333:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37404:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37409:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37414:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37013:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37016:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 37016:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37020:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37064:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37069:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37076:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37080:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37127:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37132:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37137:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37144:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37148:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37192:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37197:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37210:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37214:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37219:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37222:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 37222:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37226:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37307:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37312:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37325:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37330:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37333:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 37333:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37337:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37395:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37400:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37412:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37415:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 37415:15] validation-unknown-properties - unknown property type[0m found
 WARN    validation warn: [line 37421:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37425:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37498:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37503:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37516:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37520:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37525:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37528:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 37528:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37532:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37683:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37688:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37701:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37706:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37709:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 37709:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37713:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37772:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37777:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37789:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37792:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 37792:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37798:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37845:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37854:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37878:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37891:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37898:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37901:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 37901:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37905:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37975:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 37982:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 37986:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38137:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38153:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38156:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38156:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38160:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38192:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38204:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38207:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38207:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38211:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38254:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38259:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38271:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38274:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38274:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38278:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38322:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38334:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38337:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38337:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38341:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38371:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38383:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38386:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38386:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38390:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38433:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38451:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38454:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38454:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38458:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38509:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38521:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38524:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38524:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38528:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38571:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38576:11] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38576:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38584:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38588:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38616:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38629:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38636:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38639:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38639:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38643:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38688:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38693:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38700:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38704:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38754:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38759:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38764:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38771:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38775:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38822:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38827:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37453:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37458:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37465:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37469:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37540:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37545:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37550:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37557:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37561:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37634:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37639:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37652:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37656:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37661:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37664:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 37664:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37668:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37819:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37824:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37837:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37842:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37845:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 37845:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37849:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37908:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37913:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37925:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37928:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 37928:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37934:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 37981:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 37990:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38014:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38027:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38034:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38037:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38037:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38041:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38111:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38118:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38122:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38273:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38289:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38292:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38292:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38296:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38328:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38340:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38343:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38343:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38347:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38390:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38395:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38407:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38410:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38410:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38414:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38458:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38470:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38473:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38473:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38477:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38507:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38519:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38522:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38522:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38526:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38569:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38587:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38590:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38590:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38594:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38645:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38657:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38660:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38660:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38664:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38707:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38712:11] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38712:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38720:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38724:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38752:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38765:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38772:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38775:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38775:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38779:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38824:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38829:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38836:11] validation-unknown-properties - unknown property schema[0m found
 WARN    validation warn: [line 38840:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38844:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38849:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38852:15] validation-unknown-properties - unknown property format[0m found
-WARN    validation warn: [line 38852:15] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38856:11] validation-unknown-properties - unknown property schema[0m found
-WARN    validation warn: [line 38950:11] validation-unknown-properties - unknown property type[0m found
-WARN    validation warn: [line 38955:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38890:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38895:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38900:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38907:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38911:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38958:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38963:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38976:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38980:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 38985:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38988:15] validation-unknown-properties - unknown property format[0m found
+WARN    validation warn: [line 38988:15] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 38992:11] validation-unknown-properties - unknown property schema[0m found
+WARN    validation warn: [line 39086:11] validation-unknown-properties - unknown property type[0m found
+WARN    validation warn: [line 39091:11] validation-unknown-properties - unknown property type[0m found
 ERROR    validation error: invalid version : invalid version : invalid version : invalid version 
 ERROR    validation error: invalid version : invalid version : invalid version : invalid version 
 ERROR    validation error: invalid version : invalid version : invalid version : invalid version 
@@ -1481,19 +1481,19 @@ ERROR    validation error: [line 27049:15] validation-allowed-values - parameter
 ERROR    validation error: [line 27275:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
 ERROR    validation error: [line 27406:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
 ERROR    validation error: [line 28919:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 36113:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 36547:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 36712:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 37067:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 37182:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 37509:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 37694:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 37884:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 38143:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 38439:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 38622:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 38833:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
-ERROR    validation error: [line 38961:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 36249:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 36683:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 36848:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 37203:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 37318:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 37645:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 37830:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 38020:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 38279:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 38575:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 38758:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 38969:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
+ERROR    validation error: [line 39097:15] validation-allowed-values - parameter.in must be one of [query, querystring, header, path, cookie[0m]
                                                                       
 OpenAPI document linting complete. 216 errors, 999 warnings, 278 hints
                                                                       

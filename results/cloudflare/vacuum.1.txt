@@ -6,43 +6,43 @@
   ╚████╔╝ ██║  ██║╚██████╗╚██████╔╝╚██████╔╝██║ ╚═╝ ██║ 《《─═─═──* · · ˙
    ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝ 《───═─═─· ··* ˙˙ ˙
 
- version: 0.36.0 | compiled: Thu, 29 Oct 2026 14:08:44 UTC
+ version: 0.36.2 | compiled: Sun, 01 Nov 2026 21:03:39 UTC
  https://quobix.com/vacuum/ | https://github.com/daveshanley/vacuum
 
  vacuuming file 'openapi/cloudflare.yaml' against 55 rules: https://quobix.com/vacuum/rulesets/recommended
 
  category              ✗ errors      ▲ warnings    ● info                                                  
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
- Operations            0             794           0                                                       
- Tags                  0             3,768         0                                                       
- Schemas               354           12,732        24                                                      
- Descriptions          0             10,512        22,081                                                  
+ Operations            0             793           0                                                       
+ Tags                  0             3,769         0                                                       
+ Schemas               352           12,733        19                                                      
+ Descriptions          0             10,504        22,082                                                  
  Security              9             0             0                                                       
- Examples              0             14,023        0                                                       
+ Examples              0             14,030        0                                                       
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
- total                 363           41,829        22,105                                                  
+ total                 361           41,829        22,101                                                  
 
  rule                                      violations    quality impact                                    
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- description-duplication                   22,081        ██████████████████████████████████████████████████
- camel-case-properties                     12,213        ███████████████████████████                       
- oas3-missing-example                      11,803        ██████████████████████████                        
- oas3-parameter-description                5,479         ████████████                                      
- component-description                     3,820         ████████                                          
- operation-tag-defined                     3,768         ████████                                          
- oas3-valid-schema-example                 2,220         █████                                             
- operation-description                     1,213         ██                                                
+ description-duplication                   22,082        ██████████████████████████████████████████████████
+ camel-case-properties                     12,221        ███████████████████████████                       
+ oas3-missing-example                      11,809        ██████████████████████████                        
+ oas3-parameter-description                5,478         ████████████                                      
+ component-description                     3,815         ████████                                          
+ operation-tag-defined                     3,769         ████████                                          
+ oas3-valid-schema-example                 2,221         █████                                             
+ operation-description                     1,211         ██                                                
  paths-kebab-case                          713           █                                                 
  no-unnecessary-combinator                 344                                                             
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- total                                     64,297      
+ total                                     64,291      
  ... and 11 more rules
 
  --> use the <dashboard> command to be able to navigate results interactively <--
 
  | Quality Score: 10/100 [🥵]
 
- | ✗ Failed with 363 errors, 41,829 warnings and 22,105 informs.
+ | ✗ Failed with 361 errors, 41,829 warnings and 22,101 informs.
 
  use --debug if you want to enable developer logging
 
