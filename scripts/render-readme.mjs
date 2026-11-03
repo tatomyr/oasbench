@@ -88,3 +88,4 @@ const readme = readFileSync(readmePath, 'utf8');
 const start = readme.indexOf(START);
 const end = readme.indexOf(END) + END.length;
 writeFileSync(readmePath, readme.slice(0, start) + rendered + readme.slice(end));
+console.log(table);
