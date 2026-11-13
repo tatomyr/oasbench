@@ -6,7 +6,7 @@
   ╚████╔╝ ██║  ██║╚██████╗╚██████╔╝╚██████╔╝██║ ╚═╝ ██║ 《《─═─═──* · · ˙
    ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝ 《───═─═─· ··* ˙˙ ˙
 
- version: 0.36.2 | compiled: Sun, 01 Nov 2026 21:03:39 UTC
+ version: 0.40.1 | compiled: Thu, 12 Nov 2026 22:08:46 UTC
  https://quobix.com/vacuum/ | https://github.com/daveshanley/vacuum
 
  vacuuming file 'openapi/github.yaml' against 55 rules: https://quobix.com/vacuum/rulesets/recommended
@@ -14,33 +14,33 @@
  category              ✗ errors      ▲ warnings    ● info                                                  
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
  Operations            0             113           0                                                       
- Schemas               2             23,255        88                                                      
- Descriptions          0             1,339         10,296                                                  
- Examples              0             1,171         0                                                       
+ Schemas               2             23,593        88                                                      
+ Descriptions          0             1,355         10,829                                                  
+ Examples              0             1,209         0                                                       
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
- total                 2             25,878        10,384                                                  
+ total                 2             26,270        10,917                                                  
 
  rule                                      violations    quality impact                                    
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- camel-case-properties                     22,871        ██████████████████████████████████████████████████
- description-duplication                   10,296        ██████████████████████                            
- component-description                     953           ██                                                
- oas3-missing-example                      896           █                                                 
- operation-description                     335                                                             
+ camel-case-properties                     23,204        ██████████████████████████████████████████████████
+ description-duplication                   10,829        ███████████████████████                           
+ component-description                     957           ██                                                
+ oas3-missing-example                      935           ██                                                
+ operation-description                     347                                                             
  oas3-unused-component                     303                                                             
- oas3-valid-schema-example                 275                                                             
+ oas3-valid-schema-example                 274                                                             
  oas-missing-type                          88                                                              
  paths-kebab-case                          86                                                              
- nullable-enum-contains-null               73                                                              
+ nullable-enum-contains-null               74                                                              
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- total                                     36,264      
+ total                                     37,189      
  ... and 5 more rules
 
  --> use the <dashboard> command to be able to navigate results interactively <--
 
  | Quality Score: 10/100 [🥵]
 
- | ✗ Failed with 2 errors, 25,878 warnings and 10,384 informs.
+ | ✗ Failed with 2 errors, 26,270 warnings and 10,917 informs.
 
  use --debug if you want to enable developer logging
 

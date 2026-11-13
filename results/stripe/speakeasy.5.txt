@@ -1,6 +1,6 @@
 Linting OpenAPI document...
                            
-Lint report written to: /home/runner/.speakeasy/temp/lint-report-0ef29acca0cc40e32347fd80686fd0a4-3661284836.html
+Lint report written to: /home/runner/.speakeasy/temp/lint-report-b7eed406d7770c8b3cda8618f90f0532-2752025334.html
 INFO    validation hint: [line 1:1] generator-retries - retries should be configured - consider adding x-speakeasy-retries[0m extension globally or per-operation
 INFO    validation hint: [line 29:13] generator-missing-examples - missing example for parameter. Consider adding an example
 INFO    validation hint: [line 39:15] generator-missing-examples - missing example for requestBody[0m. Consider adding an example

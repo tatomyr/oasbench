@@ -6,7 +6,7 @@
   ╚████╔╝ ██║  ██║╚██████╗╚██████╔╝╚██████╔╝██║ ╚═╝ ██║ 《《─═─═──* · · ˙
    ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝ 《───═─═─· ··* ˙˙ ˙
 
- version: 0.36.2 | compiled: Sun, 01 Nov 2026 21:03:39 UTC
+ version: 0.40.1 | compiled: Thu, 12 Nov 2026 22:08:46 UTC
  https://quobix.com/vacuum/ | https://github.com/daveshanley/vacuum
 
  vacuuming file 'openapi/digitalocean.yaml' against 55 rules: https://quobix.com/vacuum/rulesets/recommended
@@ -14,34 +14,34 @@
  category              ✗ errors      ▲ warnings    ● info                                                  
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
  Contract Information  1             0             0                                                       
- Operations            0             209           0                                                       
- Schemas               13            2,924         0                                                       
- Descriptions          0             1,002         1,259                                                   
- Examples              0             511           0                                                       
+ Operations            0             214           0                                                       
+ Schemas               13            3,031         5                                                       
+ Descriptions          0             1,034         1,294                                                   
+ Examples              0             527           0                                                       
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
- total                 14            4,646         1,259                                                   
+ total                 14            4,806         1,299                                                   
 
  rule                                      violations    quality impact                                    
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- camel-case-properties                     2,876         ██████████████████████████████████████████████████
- description-duplication                   1,259         █████████████████████                             
- component-description                     726           ████████████                                      
- oas3-missing-example                      506           ████████                                          
- operation-description                     273           ████                                              
- paths-kebab-case                          189           ███                                               
+ camel-case-properties                     2,983         ██████████████████████████████████████████████████
+ description-duplication                   1,294         █████████████████████                             
+ component-description                     748           ████████████                                      
+ oas3-missing-example                      522           ████████                                          
+ operation-description                     283           ████                                              
+ paths-kebab-case                          194           ███                                               
  no-unnecessary-combinator                 32                                                              
  oas-schema-check                          13                                                              
  no-request-body                           11                                                              
  nullable-enum-contains-null               10                                                              
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- total                                     5,919       
- ... and 7 more rules
+ total                                     6,119       
+ ... and 8 more rules
 
  --> use the <dashboard> command to be able to navigate results interactively <--
 
  | Quality Score: 10/100 [🥵]
 
- | ✗ Failed with 14 errors, 4,646 warnings and 1,259 informs.
+ | ✗ Failed with 14 errors, 4,806 warnings and 1,299 informs.
 
  use --debug if you want to enable developer logging
 

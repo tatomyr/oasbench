@@ -1,8 +1,8 @@
 
 <--- Last few GCs --->
 
-[4382:0x31a3c000]    36054 ms: Scavenge (interleaved) 4060.1 (4072.3) -> 4053.0 (4088.8) MB, pooled: 0 MB, 5.56 / 0.00 ms  (average mu = 0.323, current mu = 0.303) allocation failure; 
-[4382:0x31a3c000]    37003 ms: Mark-Compact (reduce) 4065.3 (4089.0) -> 4053.5 (4059.5) MB, pooled: 0 MB, 802.94 / 0.00 ms  (+ 18.8 ms in 6 steps since start of marking, biggest step 5.0 ms, walltime since start of marking 827 ms) (average mu = 0.300, cur
+[5215:0x23aaa000]    45912 ms: Scavenge 4040.3 (4060.0) -> 4026.1 (4093.0) MB, pooled: 0 MB, 3.01 / 0.00 ms  (average mu = 0.300, current mu = 0.267) allocation failure; 
+[5215:0x23aaa000]    47132 ms: Mark-Compact (reduce) 4026.3 (4093.3) -> 4024.6 (4029.8) MB, pooled: 0 MB, 1197.52 / 0.00 ms  (+ 19.2 ms in 4 steps since start of marking, biggest step 5.1 ms, walltime since start of marking 1219 ms) (average mu = 0.251, c
 FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
 ----- Native stack trace -----
 
@@ -10,10 +10,10 @@ FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaS
  2: 0x75f71e node::OOMErrorHandler(char const*, v8::OOMDetails const&) [node]
  3: 0xc9a1e0  [node]
  4: 0xc9a2cf  [node]
- 5: 0xf3dba5  [node]
- 6: 0xf3dbd2  [node]
- 7: 0xf3deca  [node]
- 8: 0xf4ebca  [node]
- 9: 0xf52f70  [node]
-10: 0x19f0c41  [node]
+ 5: 0xf3e5a5  [node]
+ 6: 0xf3e5d2  [node]
+ 7: 0xf3e8ca  [node]
+ 8: 0xf4f5ca  [node]
+ 9: 0xf53970  [node]
+10: 0x19f1e81  [node]
 exit 134
