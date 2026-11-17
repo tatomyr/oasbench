@@ -1,6 +1,6 @@
-redocly 0.0.0-snapshot.1794561908
-redocly-latest 2.78.0
-scalar 2.15.0
-speakeasy 1.808.1
+redocly 0.0.0-snapshot.1794925153
+redocly-latest 2.79.0
+scalar 2.18.0
+speakeasy 1.809.0
 spectral 6.17.1
-vacuum 0.40.1
+vacuum 0.41.0

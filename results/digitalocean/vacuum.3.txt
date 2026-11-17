@@ -6,7 +6,7 @@
   ╚████╔╝ ██║  ██║╚██████╗╚██████╔╝╚██████╔╝██║ ╚═╝ ██║ 《《─═─═──* · · ˙
    ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝ 《───═─═─· ··* ˙˙ ˙
 
- version: 0.40.1 | compiled: Thu, 12 Nov 2026 22:08:46 UTC
+ version: 0.41.0 | compiled: Sat, 14 Nov 2026 12:46:28 UTC
  https://quobix.com/vacuum/ | https://github.com/daveshanley/vacuum
 
  vacuuming file 'openapi/digitalocean.yaml' against 55 rules: https://quobix.com/vacuum/rulesets/recommended
@@ -15,17 +15,17 @@
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
  Contract Information  1             0             0                                                       
  Operations            0             214           0                                                       
- Schemas               13            3,031         5                                                       
- Descriptions          0             1,034         1,294                                                   
+ Schemas               13            3,034         5                                                       
+ Descriptions          0             1,036         1,298                                                   
  Examples              0             527           0                                                       
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
- total                 14            4,806         1,299                                                   
+ total                 14            4,811         1,303                                                   
 
  rule                                      violations    quality impact                                    
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- camel-case-properties                     2,983         ██████████████████████████████████████████████████
- description-duplication                   1,294         █████████████████████                             
- component-description                     748           ████████████                                      
+ camel-case-properties                     2,986         ██████████████████████████████████████████████████
+ description-duplication                   1,298         █████████████████████                             
+ component-description                     750           ████████████                                      
  oas3-missing-example                      522           ████████                                          
  operation-description                     283           ████                                              
  paths-kebab-case                          194           ███                                               
@@ -34,14 +34,14 @@
  no-request-body                           11                                                              
  nullable-enum-contains-null               10                                                              
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- total                                     6,119       
+ total                                     6,128       
  ... and 8 more rules
 
  --> use the <dashboard> command to be able to navigate results interactively <--
 
  | Quality Score: 10/100 [🥵]
 
- | ✗ Failed with 14 errors, 4,806 warnings and 1,299 informs.
+ | ✗ Failed with 14 errors, 4,811 warnings and 1,303 informs.
 
  use --debug if you want to enable developer logging
 

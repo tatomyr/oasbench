@@ -6,7 +6,7 @@
   ╚████╔╝ ██║  ██║╚██████╗╚██████╔╝╚██████╔╝██║ ╚═╝ ██║ 《《─═─═──* · · ˙
    ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝     ╚═╝ 《───═─═─· ··* ˙˙ ˙
 
- version: 0.40.1 | compiled: Thu, 12 Nov 2026 22:08:46 UTC
+ version: 0.41.0 | compiled: Sat, 14 Nov 2026 12:46:28 UTC
  https://quobix.com/vacuum/ | https://github.com/daveshanley/vacuum
 
  vacuuming file 'openapi/azure.yaml' against 55 rules: https://quobix.com/vacuum/rulesets/recommended
