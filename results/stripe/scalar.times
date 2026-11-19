@@ -1,10 +1,10 @@
-scripts/bench.sh: line 11:  4351 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
-56.238
-scripts/bench.sh: line 11:  4405 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
-57.681
-scripts/bench.sh: line 11:  4503 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
-56.983
-scripts/bench.sh: line 11:  4557 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
-58.722
-scripts/bench.sh: line 11:  4621 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
-59.996
+scripts/bench.sh: line 11:  4293 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
+75.681
+scripts/bench.sh: line 11:  4349 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
+70.947
+scripts/bench.sh: line 11:  4446 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
+74.456
+scripts/bench.sh: line 11:  4504 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
+74.918
+scripts/bench.sh: line 11:  4566 Aborted                    (core dumped) timeout -s KILL $TIMEOUT_SECONDS "$@" $file > $output 2>&1
+77.650
