@@ -1,1 +1,1 @@
-AMD EPYC 9V74 80-Core Processor, 4 cores, 15 GB RAM, Linux 7.0.0-1019-azure, Node v24.22.2
+Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz, 4 cores, 15 GB RAM, Linux 7.0.0-1019-azure, Node v24.22.2

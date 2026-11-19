@@ -15,34 +15,34 @@
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
  Operations            0             794           0                                                       
  Tags                  0             3,784         0                                                       
- Schemas               344           12,996        23                                                      
- Descriptions          0             10,551        22,475                                                  
+ Schemas               344           13,003        23                                                      
+ Descriptions          0             10,559        22,496                                                  
  Security              4             0             0                                                       
  Examples              0             14,148        0                                                       
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
- total                 348           42,273        22,498                                                  
+ total                 348           42,288        22,519                                                  
 
  rule                                      violations    quality impact                                    
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- description-duplication                   22,475        ██████████████████████████████████████████████████
- camel-case-properties                     12,472        ███████████████████████████                       
+ description-duplication                   22,496        ██████████████████████████████████████████████████
+ camel-case-properties                     12,478        ███████████████████████████                       
  oas3-missing-example                      11,896        ██████████████████████████                        
- oas3-parameter-description                5,484         ████████████                                      
- component-description                     3,851         ████████                                          
+ oas3-parameter-description                5,488         ████████████                                      
+ component-description                     3,855         ████████                                          
  operation-tag-defined                     3,784         ████████                                          
  oas3-valid-schema-example                 2,252         █████                                             
  operation-description                     1,216         ██                                                
  paths-kebab-case                          716           █                                                 
  no-unnecessary-combinator                 351                                                             
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- total                                     65,119      
+ total                                     65,155      
  ... and 11 more rules
 
  --> use the <dashboard> command to be able to navigate results interactively <--
 
  | Quality Score: 10/100 [🥵]
 
- | ✗ Failed with 348 errors, 42,273 warnings and 22,498 informs.
+ | ✗ Failed with 348 errors, 42,288 warnings and 22,519 informs.
 
  use --debug if you want to enable developer logging
 

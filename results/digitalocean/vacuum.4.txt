@@ -16,15 +16,15 @@
  Contract Information  1             0             0                                                       
  Operations            0             214           0                                                       
  Schemas               13            3,038         5                                                       
- Descriptions          0             1,035         1,299                                                   
+ Descriptions          0             1,035         1,298                                                   
  Examples              0             528           0                                                       
  ────────────────────  ────────────  ────────────  ────────────────────────────────────────────────────────
- total                 14            4,815         1,304                                                   
+ total                 14            4,815         1,303                                                   
 
  rule                                      violations    quality impact                                    
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
  camel-case-properties                     2,990         ██████████████████████████████████████████████████
- description-duplication                   1,299         █████████████████████                             
+ description-duplication                   1,298         █████████████████████                             
  component-description                     750           ████████████                                      
  oas3-missing-example                      523           ████████                                          
  operation-description                     282           ████                                              
@@ -34,14 +34,14 @@
  no-request-body                           11                                                              
  nullable-enum-contains-null               10                                                              
  ────────────────────────────────────────  ────────────  ──────────────────────────────────────────────────
- total                                     6,133       
+ total                                     6,132       
  ... and 8 more rules
 
  --> use the <dashboard> command to be able to navigate results interactively <--
 
  | Quality Score: 10/100 [🥵]
 
- | ✗ Failed with 14 errors, 4,815 warnings and 1,304 informs.
+ | ✗ Failed with 14 errors, 4,815 warnings and 1,303 informs.
 
  use --debug if you want to enable developer logging
 

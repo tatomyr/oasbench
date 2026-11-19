@@ -1,5 +1,5 @@
-redocly 0.0.0-snapshot.1795084533
-redocly-latest 2.80.0
+redocly 0.0.0-snapshot.1795104295
+redocly-latest 2.82.0
 scalar 2.21.0
 speakeasy 1.810.0
 spectral 6.17.1
